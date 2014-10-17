@@ -35,7 +35,7 @@
       <file leaf-file-name="welcome.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="53" selection-start="1497" selection-end="1497" vertical-scroll-proportion="0.5554711" vertical-offset="0" max-vertical-offset="1316">
+            <state line="47" column="53" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.60714287" vertical-offset="0" max-vertical-offset="1316">
               <folding />
             </state>
           </provider>
@@ -62,7 +62,7 @@
       <file leaf-file-name="welcome.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="121" column="76" selection-start="6558" selection-end="6558" vertical-scroll-proportion="-79.11539" vertical-offset="0" max-vertical-offset="3077">
+            <state line="121" column="76" selection-start="6558" selection-end="6558" vertical-scroll-proportion="-77.15385" vertical-offset="51" max-vertical-offset="3077">
               <folding />
             </state>
           </provider>
@@ -89,7 +89,7 @@
       <file leaf-file-name="xiaona.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/xiaona.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="151" column="16" selection-start="5829" selection-end="5829" vertical-scroll-proportion="0.0" vertical-offset="1997" max-vertical-offset="6103">
+            <state line="151" column="16" selection-start="5829" selection-end="5829" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6103">
               <folding />
             </state>
           </provider>
@@ -179,6 +179,34 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="xiaona" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xiaona" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xiaona" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xiaona" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xiaona" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -432,20 +460,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/xiaona.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1344">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/xiaona.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="151" column="16" selection-start="5829" selection-end="5829" vertical-scroll-proportion="0.0" vertical-offset="1997" max-vertical-offset="6103">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1331">
@@ -490,14 +504,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="76" selection-start="6558" selection-end="6558" vertical-scroll-proportion="-79.11539" vertical-offset="0" max-vertical-offset="3077">
+        <state line="121" column="76" selection-start="6558" selection-end="6558" vertical-scroll-proportion="-77.15385" vertical-offset="51" max-vertical-offset="3077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/xiaona.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1344">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/xiaona.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="151" column="16" selection-start="5829" selection-end="5829" vertical-scroll-proportion="0.0" vertical-offset="1997" max-vertical-offset="6103">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="53" selection-start="1497" selection-end="1497" vertical-scroll-proportion="0.5554711" vertical-offset="0" max-vertical-offset="1316">
+        <state line="47" column="53" selection-start="1499" selection-end="1499" vertical-scroll-proportion="0.60714287" vertical-offset="0" max-vertical-offset="1316">
           <folding />
         </state>
       </provider>
