@@ -5,7 +5,7 @@ class Welcome extends CI_Controller {
 
     public function shows(){
         $this->load->helper('url');
-        $token_url = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx4b9a0bd3865f2332&redirect_uri=' . urlencode('http://nokia.cnhtk.cn/redirect.php') . '&response_type=code&scope=snsapi_base&state=index#wechat_redirect';
+        $token_url = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx4b9a0bd3865f2332&redirect_uri=' . urlencode('http://nokia.cnhtk.cn/xiaona/index.php/welcome/checks') . '&response_type=code&scope=snsapi_base&state=index#wechat_redirect';
         redirect($token_url);
     }
 
