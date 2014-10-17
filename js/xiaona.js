@@ -151,7 +151,6 @@
 
             //设置不中奖 和 优惠券
 
-            alert(quan);
             //可中出优惠券
             if(quan == 2){
                 window.XIAONA.num = 38;
@@ -163,9 +162,13 @@
                 */
             //相反不可中出
             }else{
+                window.XIAONA.num = 38;
+
+                /*
                 do{
                     window.XIAONA.num = Math.floor(Math.random()*38);
                 }while(window.XIAONA.num == 0);
+                */
             }
 
 
