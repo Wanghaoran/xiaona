@@ -40,6 +40,7 @@ class Welcome extends CI_Controller {
             $data['quan'] = 2;
         }
 
+        var_dump($data);
         $this->load->view('welcome', $data);
 	}
 }
