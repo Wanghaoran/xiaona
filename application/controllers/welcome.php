@@ -29,8 +29,8 @@ class Welcome extends CI_Controller {
         $data['openid'] = $result_arr['openid'];
         $this -> quan_model -> insertuser($result_arr['openid']);
 
-        var_dump($result_arr);
-//        $this->load->view('welcome', $data);
+//        var_dump($result_arr);
+        $this->load->view('welcome', $data);
 	}
 
     //记录已获得优惠券的用户
