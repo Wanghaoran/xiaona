@@ -35,7 +35,7 @@
       <file leaf-file-name="welcome.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="53" selection-start="1607" selection-end="1607" vertical-scroll-proportion="0.581307" vertical-offset="0" max-vertical-offset="1316">
+            <state line="36" column="28" selection-start="1432" selection-end="1434" vertical-scroll-proportion="0.4650456" vertical-offset="0" max-vertical-offset="1316">
               <folding />
             </state>
           </provider>
@@ -53,7 +53,7 @@
       <file leaf-file-name="quan_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/quan_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="30" selection-start="268" selection-end="278" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="1564">
+            <state line="20" column="0" selection-start="446" selection-end="446" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="1564">
               <folding />
             </state>
           </provider>
@@ -558,13 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/quan_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="30" selection-start="268" selection-end="278" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="1564">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="69" selection-start="1760" selection-end="1760" vertical-scroll-proportion="-27.461538" vertical-offset="0" max-vertical-offset="3247">
@@ -607,9 +600,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/quan_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="446" selection-end="446" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="1564">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="53" selection-start="1607" selection-end="1607" vertical-scroll-proportion="0.581307" vertical-offset="0" max-vertical-offset="1316">
+        <state line="36" column="28" selection-start="1432" selection-end="1434" vertical-scroll-proportion="0.4650456" vertical-offset="0" max-vertical-offset="1316">
           <folding />
         </state>
       </provider>
