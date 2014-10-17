@@ -152,7 +152,7 @@
         "img_height": "200",
         "link": "http://182.92.64.207/xiaona/index.html",
         "desc":  "",
-        "title": "好礼摇不停 智趣享不够"
+        "title": "<?=$quan?>好礼摇不停 智趣享不够"
     };
     document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
         WeixinJSBridge.call('hideToolbar');
