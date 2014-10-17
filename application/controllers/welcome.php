@@ -18,6 +18,9 @@ class Welcome extends CI_Controller {
             die('Authorization failure!' .  $result_arr['errmsg'] . '</h1>');
         }
 
+
+        var_dump($result_arr['openid']);
+
         $this -> load -> model('quan_model');
         //查询用户是否已中过优惠券，已中出则不在中
         $data = array();
@@ -28,7 +31,7 @@ class Welcome extends CI_Controller {
         }
         $data['openid'] = $result_arr['openid'];
 
-        $this->load->view('welcome', $data);
+//        $this->load->view('welcome', $data);
 	}
 
     //记录已获得优惠券的用户
