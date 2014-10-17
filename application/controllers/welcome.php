@@ -20,9 +20,12 @@ class Welcome extends CI_Controller {
             die('Authorization failure!' .  $result_arr['errmsg'] . '</h1>');
         }
 
-        //记录信息
         $this -> load -> model('quan_model');
-        $this -> quan_model -> insertuser($result_arr['openid']);
+        //查询用户是否已中过优惠券，已中出则不在中
+        var_dump($this -> quan_model -> checkquan($result_arr['openid']));
+
+
+        //记录信息
     }
 
 	public function index()

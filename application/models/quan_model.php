@@ -8,6 +8,8 @@ class Quan_model extends CI_Model {
         $this -> load -> database();
     }
 
+
+    //插入已中出优惠券的用户
     public function insertuser($openID){
         $data = array(
             'openID' => $openID,
@@ -15,6 +17,12 @@ class Quan_model extends CI_Model {
         );
 
         return $this -> db -> insert('quan', $data);
+    }
+
+    //查询用户是否中出优惠券
+    public function checkquan($openID){
+        $query = $this -> db -> get_where('quan', array('openID' => $openID), 1);
+        return $query -> result_array();
     }
 
 
