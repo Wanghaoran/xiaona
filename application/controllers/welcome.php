@@ -19,6 +19,7 @@ class Welcome extends CI_Controller {
         }
 
         $this -> load -> model('quan_model');
+
         //查询用户是否已中过优惠券，已中出则不在中
         $data = array();
         if($this -> quan_model -> checkquan($result_arr['openid'])){
@@ -27,6 +28,8 @@ class Welcome extends CI_Controller {
             $data['quan'] = 2;
         }
         $data['openid'] = $result_arr['openid'];
+        $this -> quan_model -> insertuser($result_arr['openid']);
+
 
         $this->load->view('welcome', $data);
 	}
