@@ -162,13 +162,10 @@
                 */
             //相反不可中出
             }else{
-                window.XIAONA.num = 38;
 
-                /*
                 do{
                     window.XIAONA.num = Math.floor(Math.random()*38);
                 }while(window.XIAONA.num == 0);
-                */
             }
 
 
