@@ -22,8 +22,14 @@ class Welcome extends CI_Controller {
 
         $this -> load -> model('quan_model');
         //查询用户是否已中过优惠券，已中出则不在中
-        var_dump($this -> quan_model -> checkquan($result_arr['openid']));
+        $data = array();
+        if($this -> quan_model -> checkquan($result_arr['openid'])){
+            $data['quan'] = 1;
+        }else{
+            $data['quan'] = 2;
+        }
 
+        $this->load->view('welcome', $data);
 
         //记录信息
     }
