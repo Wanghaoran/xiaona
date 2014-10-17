@@ -27,9 +27,7 @@ class Welcome extends CI_Controller {
             $data['quan'] = 2;
         }
         $data['openid'] = $result_arr['openid'];
-        $this -> quan_model -> insertuser($result_arr['openid']);
 
-//        var_dump($result_arr);
         $this->load->view('welcome', $data);
 	}
 
