@@ -19,7 +19,10 @@ class Welcome extends CI_Controller {
         if(!empty($result_arr['errcode'])){
             die('Authorization failure!' .  $result_arr['errmsg'] . '</h1>');
         }
-        var_dump($result_arr);
+
+        //记录信息
+        $this -> load -> model('quan_model');
+        $this -> quan_model -> insertuser($result_arr['openid']);
     }
 
 	public function index()

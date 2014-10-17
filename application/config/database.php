@@ -45,15 +45,17 @@
 | the active record class
 */
 
+
+
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = '';
-$db['default']['password'] = '';
-$db['default']['database'] = '';
+$db['default']['hostname'] = 'rdsqaqmemuunamz.mysql.rds.aliyuncs.com';
+$db['default']['username'] = 'hyatt';
+$db['default']['password'] = 'jilexingqiu';
+$db['default']['database'] = 'nokia_xiaona';
 $db['default']['dbdriver'] = 'mysql';
-$db['default']['dbprefix'] = '';
+$db['default']['dbprefix'] = 'xiaona_';
 $db['default']['pconnect'] = TRUE;
 $db['default']['db_debug'] = TRUE;
 $db['default']['cache_on'] = FALSE;
@@ -63,6 +65,9 @@ $db['default']['dbcollat'] = 'utf8_general_ci';
 $db['default']['swap_pre'] = '';
 $db['default']['autoinit'] = TRUE;
 $db['default']['stricton'] = FALSE;
+
+
+
 
 
 /* End of file database.php */
