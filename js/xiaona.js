@@ -151,6 +151,7 @@
 
             //设置不中奖 和 优惠券
 
+            alert(quan);
             //可中出优惠券
             if(quan == 2){
                 window.XIAONA.num = 38;
