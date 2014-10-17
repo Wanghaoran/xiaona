@@ -147,7 +147,13 @@
 		$("#startBtn").attr("isRunning", true);
 		$("#mainpage_xn").attr("src","img/mainpage_xn.gif");
 		setTimeout(function(){
-			window.XIAONA.num = Math.floor(Math.random()*39);
+
+
+            //设置不中奖 和 没有优惠券
+            do{
+                window.XIAONA.num = Math.floor(Math.random()*38);
+
+            }while(window.XIAONA.num == 0);
 
 			$("#mainpage").css("display","none");
 			$("#rewardpage").fadeIn("slow");
