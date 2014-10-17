@@ -11,6 +11,7 @@ class Quan_model extends CI_Model {
 
     //插入已中出优惠券的用户
     public function insertuser($openID){
+        $openID = trim($openID);
         $data = array(
             'openID' => $openID,
             'time' => time(),
