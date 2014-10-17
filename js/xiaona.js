@@ -149,11 +149,22 @@
 		setTimeout(function(){
 
 
-            //设置不中奖 和 没有优惠券
-            do{
-                window.XIAONA.num = Math.floor(Math.random()*38);
+            //设置不中奖 和 优惠券
 
-            }while(window.XIAONA.num == 0);
+            //可中出优惠券
+            if(quan == 2){
+                do{
+                    window.XIAONA.num = Math.floor(Math.random()*39);
+
+                }while(window.XIAONA.num == 0);
+            //相反不可中出
+            }else{
+                do{
+                    window.XIAONA.num = Math.floor(Math.random()*38);
+                }while(window.XIAONA.num == 0);
+            }
+
+
 
 			$("#mainpage").css("display","none");
 			$("#rewardpage").fadeIn("slow");

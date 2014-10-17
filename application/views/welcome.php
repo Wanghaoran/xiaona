@@ -16,6 +16,15 @@
     <meta name="imagemode" content="force">
     <meta name="browsermode" content="application">
     <link href="css/xiaona.css" rel="stylesheet" type="text/css" />
+    <script>
+        <?php if($quan == 1): ?>
+          //1为不可以中出优惠券
+          var quan = 1;
+        <?php else: ?>
+          //2为不可以中出优惠券
+          var quan = 2;
+        <?php endif; ?>
+    </script>
     <script src="js/jquery.js"></script>
     <script type="text/javascript" src="js/jquery.jplayer.js"></script>
     <script type="text/javascript">
@@ -152,13 +161,13 @@
         "img_height": "200",
         "link": "http://182.92.64.207/xiaona",
         "desc":  "",
-        "title": "<?=$quan?>好礼摇不停 智趣享不够"
+        "title": "好礼摇不停 智趣享不够"
     };
     document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
         WeixinJSBridge.call('hideToolbar');
 
         WeixinJSBridge.on('menu:share:timeline', function () {
-            shareData.title = "<?=$quan?>好礼摇不停 智趣享不够";
+            shareData.title = "好礼摇不停 智趣享不够";
             WeixinJSBridge.invoke('shareTimeline',shareData, function (res) {
                 _report('send_msg', res.err_msg);
             });
@@ -166,7 +175,7 @@
 
         //发送给好友
         WeixinJSBridge.on('menu:share:appmessage', function () {
-            shareData.title = "<?=$quan?>好礼摇不停 智趣享不够";
+            shareData.title = "好礼摇不停 智趣享不够";
             WeixinJSBridge.invoke('sendAppMessage', shareData, function (res) {
                 _report('send_msg', res.err_msg);
             })
