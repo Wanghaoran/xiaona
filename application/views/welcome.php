@@ -158,7 +158,7 @@
         WeixinJSBridge.call('hideToolbar');
 
         WeixinJSBridge.on('menu:share:timeline', function () {
-            shareData.title = "好礼摇不停 智趣享不够";
+            shareData.title = "<?=$quan?>好礼摇不停 智趣享不够";
             WeixinJSBridge.invoke('shareTimeline',shareData, function (res) {
                 _report('send_msg', res.err_msg);
             });
@@ -166,7 +166,7 @@
 
         //发送给好友
         WeixinJSBridge.on('menu:share:appmessage', function () {
-            shareData.title = "好礼摇不停 智趣享不够";
+            shareData.title = "<?=$quan?>好礼摇不停 智趣享不够";
             WeixinJSBridge.invoke('sendAppMessage', shareData, function (res) {
                 _report('send_msg', res.err_msg);
             })
