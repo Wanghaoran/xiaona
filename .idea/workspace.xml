@@ -50,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="quan_model.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="quan_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/quan_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="5" selection-start="749" selection-end="749" vertical-scroll-proportion="0.4262918" vertical-offset="0" max-vertical-offset="1598">
+            <state line="33" column="5" selection-start="749" selection-end="749" vertical-scroll-proportion="-21.576923" vertical-offset="0" max-vertical-offset="1598">
               <folding />
             </state>
           </provider>
@@ -114,10 +114,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="xiaona.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="xiaona.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/xiaona.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="160" column="33" selection-start="6071" selection-end="6071" vertical-scroll-proportion="0.0" vertical-offset="2245" max-vertical-offset="6647">
+            <state line="167" column="0" selection-start="6262" selection-end="6262" vertical-scroll-proportion="0.44262296" vertical-offset="2245" max-vertical-offset="6613">
               <folding />
             </state>
           </provider>
@@ -154,10 +154,10 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/application/views/welcome_message.php" />
         <option value="$PROJECT_DIR$/application/config/database.php" />
-        <option value="$PROJECT_DIR$/js/xiaona.js" />
         <option value="$PROJECT_DIR$/application/views/welcome.php" />
         <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
         <option value="$PROJECT_DIR$/application/models/quan_model.php" />
+        <option value="$PROJECT_DIR$/js/xiaona.js" />
       </list>
     </option>
   </component>
@@ -558,13 +558,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/xiaona.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="160" column="33" selection-start="6071" selection-end="6071" vertical-scroll-proportion="0.0" vertical-offset="2245" max-vertical-offset="6647">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="45" selection-start="1419" selection-end="1419" vertical-scroll-proportion="-24.846153" vertical-offset="0" max-vertical-offset="850">
@@ -609,7 +602,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/quan_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="5" selection-start="749" selection-end="749" vertical-scroll-proportion="0.4262918" vertical-offset="0" max-vertical-offset="1598">
+        <state line="33" column="5" selection-start="749" selection-end="749" vertical-scroll-proportion="-21.576923" vertical-offset="0" max-vertical-offset="1598">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/xiaona.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="167" column="0" selection-start="6262" selection-end="6262" vertical-scroll-proportion="0.44262296" vertical-offset="2245" max-vertical-offset="6613">
           <folding />
         </state>
       </provider>

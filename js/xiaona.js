@@ -153,13 +153,11 @@
 
             //可中出优惠券
             if(quan == 2){
-                window.XIAONA.num = 38;
-                /*
+//                window.XIAONA.num = 38;
                 do{
                     window.XIAONA.num = Math.floor(Math.random()*39);
 
                 }while(window.XIAONA.num == 0);
-                */
             //相反不可中出
             }else{
 
