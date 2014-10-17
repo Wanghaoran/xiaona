@@ -24,6 +24,7 @@
           //2为不可以中出优惠券
           var quan = 2;
         <?php endif; ?>
+        var wechat_openid = '<?=$openid?>';
     </script>
     <script src="js/jquery.js"></script>
     <script type="text/javascript" src="js/jquery.jplayer.js"></script>

@@ -35,7 +35,7 @@
       <file leaf-file-name="welcome.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="45" selection-start="1151" selection-end="1151" vertical-scroll-proportion="-21.576923" vertical-offset="0" max-vertical-offset="901">
+            <state line="34" column="27" selection-start="1329" selection-end="1336" vertical-scroll-proportion="-22.23077" vertical-offset="0" max-vertical-offset="816">
               <folding />
             </state>
           </provider>
@@ -53,7 +53,7 @@
       <file leaf-file-name="quan_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/quan_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="29" selection-start="485" selection-end="494" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="1564">
+            <state line="12" column="30" selection-start="268" selection-end="278" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="1564">
               <folding />
             </state>
           </provider>
@@ -62,7 +62,7 @@
       <file leaf-file-name="welcome.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="18" selection-start="979" selection-end="983" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="3230">
+            <state line="26" column="25" selection-start="1095" selection-end="1108" vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="3247">
               <folding>
                 <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -117,7 +117,7 @@
       <file leaf-file-name="xiaona.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/xiaona.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="182" column="57" selection-start="6728" selection-end="6728" vertical-scroll-proportion="0.8614009" vertical-offset="1938" max-vertical-offset="6358">
+            <state line="182" column="21" selection-start="6770" selection-end="6770" vertical-scroll-proportion="0.5439642" vertical-offset="2364" max-vertical-offset="6647">
               <folding />
             </state>
           </provider>
@@ -155,8 +155,8 @@
         <option value="$PROJECT_DIR$/application/views/welcome_message.php" />
         <option value="$PROJECT_DIR$/application/config/database.php" />
         <option value="$PROJECT_DIR$/application/models/quan_model.php" />
-        <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
         <option value="$PROJECT_DIR$/application/views/welcome.php" />
+        <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
         <option value="$PROJECT_DIR$/js/xiaona.js" />
       </list>
     </option>
@@ -560,21 +560,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/quan_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="29" selection-start="485" selection-end="494" vertical-scroll-proportion="-14.384615" vertical-offset="0" max-vertical-offset="1564">
+        <state line="12" column="30" selection-start="268" selection-end="278" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="1564">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="45" selection-start="1151" selection-end="1151" vertical-scroll-proportion="-21.576923" vertical-offset="0" max-vertical-offset="901">
+        <state line="34" column="27" selection-start="1329" selection-end="1336" vertical-scroll-proportion="-22.23077" vertical-offset="0" max-vertical-offset="816">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="18" selection-start="979" selection-end="983" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="3230">
+        <state line="26" column="25" selection-start="1095" selection-end="1108" vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="3247">
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -609,7 +609,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/xiaona.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="182" column="57" selection-start="6728" selection-end="6728" vertical-scroll-proportion="0.8614009" vertical-offset="1938" max-vertical-offset="6358">
+        <state line="182" column="21" selection-start="6770" selection-end="6770" vertical-scroll-proportion="0.5439642" vertical-offset="2364" max-vertical-offset="6647">
           <folding />
         </state>
       </provider>

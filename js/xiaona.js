@@ -168,6 +168,23 @@
                 }while(window.XIAONA.num == 0);
             }
 
+            //获得优惠券后进行标记
+            if(window.XIAONA.num == 38){
+
+                $.ajax({
+                    type : 'POST',
+                    url : 'http://182.92.64.207/xiaona/index.php/welcome/reloads',
+                    data : '&od= ' + wechat_openid,
+                    async : false,
+                    dataType : 'json',
+                    success : function(ress){
+                        //设置不可再中出
+                        quan = 1;
+                    }
+                });
+
+            }
+
 
 
 			$("#mainpage").css("display","none");

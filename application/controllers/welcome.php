@@ -3,19 +3,6 @@
 class Welcome extends CI_Controller {
 
 
-    public function shows(){
-
-    }
-
-    public function checks(){
-        if(!$_GET['code']){
-            die('Authorization failure!');
-        }
-
-
-        //记录信息
-    }
-
 	public function index()
 	{
         if(empty($_GET['code'])){
@@ -39,9 +26,17 @@ class Welcome extends CI_Controller {
         }else{
             $data['quan'] = 2;
         }
+        $data['openid'] = $result_arr['openid'];
 
         $this->load->view('welcome', $data);
 	}
+
+    //记录已获得优惠券的用户
+    public function reloads(){
+        $openid = $_POST['od'];
+        $this -> load -> model('quan_model');
+        $this -> quan_model -> insertuser($openid);
+    }
 }
 
 /* End of file welcome.php */
