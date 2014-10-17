@@ -150,7 +150,7 @@
         "img_url": "http://182.92.64.207/xiaona/img/share_icon.jpg",
         "img_width": "200",
         "img_height": "200",
-        "link": "http://182.92.64.207/xiaona/index.html",
+        "link": "http://182.92.64.207/xiaona",
         "desc":  "",
         "title": "<?=$quan?>好礼摇不停 智趣享不够"
     };
