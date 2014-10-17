@@ -179,10 +179,10 @@
                     dataType : 'json',
                     success : function(ress){
                         //设置不可再中出
-                        quan = 1;
                     }
                 });
 
+                quan = 1;
             }
 
 
