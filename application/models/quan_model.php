@@ -21,6 +21,7 @@ class Quan_model extends CI_Model {
 
     //查询用户是否中出优惠券
     public function checkquan($openID){
+        $openID = trim($openID);
         $query = $this -> db -> get_where('quan', array('openID' => $openID), 1);
         return $query -> result_array();
     }
