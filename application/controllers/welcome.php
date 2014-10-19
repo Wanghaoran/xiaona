@@ -5,8 +5,8 @@ class Welcome extends CI_Controller {
 
 	public function index()
 	{
+        $this->load->helper('url');
         if(empty($_GET['code'])){
-            $this->load->helper('url');
             $token_url = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx4b9a0bd3865f2332&redirect_uri=' . urlencode('http://nokia.cnhtk.cn/xiaona') . '&response_type=code&scope=snsapi_base&state=index#wechat_redirect';
             redirect($token_url);
         }
