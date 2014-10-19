@@ -32,7 +32,7 @@ class Welcome extends CI_Controller {
         $data['openid'] = $result_arr['openid'];
 
 
-        $this->load->view('welcome', $data);
+//        $this->load->view('welcome', $data);
 	}
 
     //记录已获得优惠券的用户
