@@ -11,6 +11,8 @@ class Welcome extends CI_Controller {
             redirect($token_url);
         }
 
+
+        var_dump($_SERVER);
         $token_url = 'https://api.weixin.qq.com/sns/oauth2/access_token?appid=wx4b9a0bd3865f2332&secret=8359e84e67ca7138aa1342d23f32eb00&code=' . $_GET['code'] . '&grant_type=authorization_code';
         $result_json = file_get_contents($token_url);
         $result_arr = json_decode($result_json, true);
