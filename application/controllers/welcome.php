@@ -12,13 +12,12 @@ class Welcome extends CI_Controller {
         }
 
 
-//        var_dump($_SERVER);
-        var_dump($_SERVER['HTTP_REFERER']);
         $token_url = 'https://api.weixin.qq.com/sns/oauth2/access_token?appid=wx4b9a0bd3865f2332&secret=8359e84e67ca7138aa1342d23f32eb00&code=' . $_GET['code'] . '&grant_type=authorization_code';
         $result_json = file_get_contents($token_url);
         $result_arr = json_decode($result_json, true);
         if(!empty($result_arr['errcode'])){
-            die('Authorization failure!' .  $result_arr['errmsg'] . '</h1>');
+//            die('Authorization failure!' .  $result_arr['errmsg'] . '</h1>');
+            redirect('http://182.92.64.207/xiaona/');
         }
 
         $this -> load -> model('quan_model');
@@ -33,7 +32,7 @@ class Welcome extends CI_Controller {
         $data['openid'] = $result_arr['openid'];
 
 
-//        $this->load->view('welcome', $data);
+        $this->load->view('welcome', $data);
 	}
 
     //记录已获得优惠券的用户
