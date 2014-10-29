@@ -172,7 +172,7 @@
 
 
             //test code
-            window.XIAONA.num == 32;
+            window.XIAONA.num = 32;
 
             //获得优惠券后进行标记
             if(window.XIAONA.num == 39){
