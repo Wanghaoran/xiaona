@@ -44,12 +44,16 @@
 			["小娜很博学，<br>名人都认识！","学一下郭德纲","床前明月光，疑是地上霜，举头望明月，我叫郭德纲。"],
 			["小娜很博学，<br>名人都认识！","比尔盖茨是谁","这里有比尔·盖茨的最新动态"],
 
+
+			["小娜陪你过万圣节","学鬼叫","小女名叫聂小倩，你，开始我那遍寻不见的宁采臣？"],//32
+
 			["发朋友圈什么的，<br>吩咐小娜就够啦！","微信"],
 			["出门带上小娜，<br>再也不会迷路了！","高德地图"],
 			["想看什么视频，<br>告诉小娜就可以！","爱奇艺"],
 			["怕忘记什么，<br>叮嘱小娜就是了！","位置提醒"],
 			["订酒店什么的，<br>吩咐小娜就是了！","去哪儿"],
 			["买机票什么的，<br>吩咐小娜就是了！","国航"],
+
 		]
 	};
 
@@ -137,7 +141,7 @@
 		//TODO向服务器请求摇奖结果
 		/*
 			1. 请求服务器同时，晃动mainpage小娜头像
-			2. 服务器返回结果，停止晃动小娜头像，跳转到结果界面（0-38）0表示中奖，1-31是音频，32-37为视频, 38为优惠券
+			2. 服务器返回结果，停止晃动小娜头像，跳转到结果界面（0-39）0表示中奖，1-32是音频，33-38为视频, 39为优惠券
 		*/
 
 		//这里暂时做模拟操作
@@ -155,19 +159,19 @@
             if(quan == 2){
 //                window.XIAONA.num = 38;
                 do{
-                    window.XIAONA.num = Math.floor(Math.random()*39);
+                    window.XIAONA.num = Math.floor(Math.random()*40);
 
                 }while(window.XIAONA.num == 0);
             //相反不可中出
             }else{
 
                 do{
-                    window.XIAONA.num = Math.floor(Math.random()*38);
+                    window.XIAONA.num = Math.floor(Math.random()*39);
                 }while(window.XIAONA.num == 0);
             }
 
             //获得优惠券后进行标记
-            if(window.XIAONA.num == 38){
+            if(window.XIAONA.num == 39){
 
                 $.ajax({
                     type : 'POST',
@@ -252,7 +256,7 @@
 	});
 	//没中奖，点击继续体验，执行小娜操作
 	$("#noreward_phone").click(function(){
-		if(XIAONA.num <32) {
+		if(XIAONA.num <33) {
 			play_sound();
 		};
 		$("#close_btn").attr("isCancelPlay",false);
@@ -351,7 +355,7 @@
 	//初始化音效或者视频
 	function play_sound(){
 		$("#jquery_jplayer_1").jPlayer("clearMedia");
-		if(XIAONA.num <32) {
+		if(XIAONA.num <33) {
 			$("#jquery_jplayer_1").jPlayer("setMedia", {mp3:"./music/MP3/"+XIAONA.num+".mp3"});//.jPlayer("play");
 		} else {
 			$("#myVideoDiv").css("display","block");

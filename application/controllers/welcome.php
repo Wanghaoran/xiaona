@@ -41,6 +41,7 @@ class Welcome extends CI_Controller {
         $this -> load -> model('quan_model');
         $this -> quan_model -> insertuser($openid);
     }
+
 }
 
 /* End of file welcome.php */
