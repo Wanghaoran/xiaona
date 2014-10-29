@@ -304,7 +304,7 @@
 			$("#close_btn").fadeIn();
 			//左上角显示“小娜功能页左上状态2.gif”，同时显示相应功能答案及播放相应音频
 			//如果是APP类功能页，则左上角显示“小娜功能页左上状态1.gif”，同时显示视频框架
-			if(XIAONA.num <= 31) {
+			if(XIAONA.num <= 32) {
 				$("#func_l").attr("src","img/func_left_2.gif");
 				$("#xiaona_answer").html(XIAONA.texts[XIAONA.num-1][2]);
 				$("#xiaona_answer").css("display","block");
