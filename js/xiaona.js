@@ -45,7 +45,7 @@
 			["小娜很博学，<br>名人都认识！","比尔盖茨是谁","这里有比尔·盖茨的最新动态"],
 
 
-			["小娜陪你过万圣节","学鬼叫","小女名叫聂小倩，你，开始我那遍寻不见的宁采臣？"],//32
+			["小娜陪你过万圣节","学鬼叫","小女名叫聂小倩，你，可是我那遍寻不见的宁采臣？"],//32
 
 			["发朋友圈什么的，<br>吩咐小娜就够啦！","微信"],
 			["出门带上小娜，<br>再也不会迷路了！","高德地图"],
@@ -172,7 +172,7 @@
 
 
             //test code
-            window.XIAONA.num = 32;
+//            window.XIAONA.num = 32;
 
             //获得优惠券后进行标记
             if(window.XIAONA.num == 39){
@@ -205,7 +205,7 @@
 				$("#reward_info2").css("display","block");
 				$("#reward_desc").css("display","block");
 				$("#reward_name").css("display","block");
-			} else if(XIAONA.num == 38){
+			} else if(XIAONA.num == 39){
 				$("#noreward").css("display","none");
 				$("#rewarded").css("display","block");
 				$("#reward_phone").css("display","none");
