@@ -47,12 +47,20 @@
 
 			["小娜陪你过万圣节","学鬼叫","小女名叫聂小倩，你，可是我那遍寻不见的宁采臣？"],//32
 
-			["发朋友圈什么的，<br>吩咐小娜就够啦！","微信"],//33
-			["出门带上小娜，<br>再也不会迷路了！","高德地图"],//34
-			["想看什么视频，<br>告诉小娜就可以！","爱奇艺"],//35
-			["怕忘记什么，<br>叮嘱小娜就是了！","位置提醒"],//36
-			["订酒店什么的，<br>吩咐小娜就是了！","去哪儿"],//37
-			["买机票什么的，<br>吩咐小娜就是了！","国航"],//38
+			["小娜陪你过万圣节","讲个鬼故事","我从网上找到了这个。清明节，我想回学校看看，祭奠一下我那曾被埋葬的青春。"],//33
+			["小娜陪你过万圣节","讲个鬼故事","我从网上找到了这个。在一个夜黑风高的夜晚，一个女人坐进了出租车。一路都很安静，知道女人把一个苹果递给司机，说到：“苹果给你吃...很好吃的。”司机接过苹果吃了一口说：“的确很好吃。”女人说：“我生前也很喜欢吃苹果。”司机吓的瑟瑟发抖，问道：“那...那你现在呢？”女人慢慢把头伸到前面，说：“但是我生完小孩之后就不喜欢吃了。”"],//34
+            ["小娜陪你过万圣节","陪我过万圣节","太棒了！我想我需要一张白床单"],//35
+            ["小娜陪你过万圣节","陪我过万圣节","正合我意，你准备好面具和戏装了吗？"],//36
+            ["小娜陪你过万圣节","陪我过万圣节","好啊！我们一起做南瓜灯把！"],//37
+
+
+
+            ["发朋友圈什么的，<br>吩咐小娜就够啦！","微信"],//38
+			["出门带上小娜，<br>再也不会迷路了！","高德地图"],//39
+			["想看什么视频，<br>告诉小娜就可以！","爱奇艺"],//40
+			["怕忘记什么，<br>叮嘱小娜就是了！","位置提醒"],//41
+			["订酒店什么的，<br>吩咐小娜就是了！","去哪儿"],//42
+			["买机票什么的，<br>吩咐小娜就是了！","国航"],//43
 
 		],
 	};
@@ -146,7 +154,7 @@
 		//TODO向服务器请求摇奖结果
 		/*
 			1. 请求服务器同时，晃动mainpage小娜头像
-			2. 服务器返回结果，停止晃动小娜头像，跳转到结果界面（0-39）0表示中奖，1-32是音频，33-38为视频, 39为优惠券
+			2. 服务器返回结果，停止晃动小娜头像，跳转到结果界面（0-39）0表示中奖，1-37是音频，38-43为视频, 44为优惠券
 		*/
 
 		//这里暂时做模拟操作
@@ -164,14 +172,14 @@
             if(quan == 2){
 //                window.XIAONA.num = 38;
                 do{
-                    window.XIAONA.num = Math.floor(Math.random()*40);
+                    window.XIAONA.num = Math.floor(Math.random()*45);
 
                 }while(window.XIAONA.num == 0);
             //相反不可中出
             }else{
 
                 do{
-                    window.XIAONA.num = Math.floor(Math.random()*39);
+                    window.XIAONA.num = Math.floor(Math.random()*44);
                 }while(window.XIAONA.num == 0);
             }
 
@@ -180,7 +188,7 @@
 //            window.XIAONA.num = 32;
 
             //获得优惠券后进行标记
-            if(window.XIAONA.num == 39){
+            if(window.XIAONA.num == 44){
 
                 $.ajax({
                     type : 'POST',
@@ -211,7 +219,8 @@
 				$("#reward_desc").css("display","block");
 				$("#reward_name").css("display","block");
 				$("#show_info_img").attr("src","");
-			} else if(XIAONA.num == 39){
+                //优惠券
+			} else if(XIAONA.num == 44){
 				$("#show_info_img").attr("src","");
 				$("#noreward").css("display","none");
 				$("#rewarded").css("display","block");
@@ -227,7 +236,7 @@
 			} else {
 
                 //加载底部bing图片
-				if(XIAONA.num <= 32 && XIAONA.num != 31) {
+				if(XIAONA.num <= 37 && XIAONA.num != 31) {
 					$("#show_info_img").attr("src","img/"+XIAONA.num+".jpg");
 				}
 
@@ -274,7 +283,7 @@
 	});
 	//没中奖，点击继续体验，执行小娜操作
 	$("#noreward_phone").click(function(){
-		if(XIAONA.num <33) {
+		if(XIAONA.num < 38) {
 			play_sound();
 		};
 		$("#close_btn").attr("isCancelPlay",false);
@@ -319,7 +328,7 @@
 			$("#close_btn").fadeIn();
 			//左上角显示“小娜功能页左上状态2.gif”，同时显示相应功能答案及播放相应音频
 			//如果是APP类功能页，则左上角显示“小娜功能页左上状态1.gif”，同时显示视频框架
-			if(XIAONA.num <= 32) {
+			if(XIAONA.num <= 37) {
 				$("#func_l").attr("src","img/func_left_2.gif");
 				$("#xiaona_answer").html(XIAONA.texts[XIAONA.num-1][2]);
 				$("#xiaona_answer").css("display","block");
@@ -378,7 +387,7 @@
 	//初始化音效或者视频
 	function play_sound(){
 		$("#jquery_jplayer_1").jPlayer("clearMedia");
-		if(XIAONA.num <33) {
+		if(XIAONA.num < 38) {
 			$("#jquery_jplayer_1").jPlayer("setMedia", {mp3:"./music/MP3/"+XIAONA.num+".mp3"});//.jPlayer("play");
 		} else {
 			$("#myVideoDiv").css("display","block");
