@@ -47,12 +47,12 @@
 
 			["小娜陪你过万圣节","学鬼叫","小女名叫聂小倩，你，可是我那遍寻不见的宁采臣？"],//32
 
-			["发朋友圈什么的，<br>吩咐小娜就够啦！","微信"],
-			["出门带上小娜，<br>再也不会迷路了！","高德地图"],
-			["想看什么视频，<br>告诉小娜就可以！","爱奇艺"],
-			["怕忘记什么，<br>叮嘱小娜就是了！","位置提醒"],
-			["订酒店什么的，<br>吩咐小娜就是了！","去哪儿"],
-			["买机票什么的，<br>吩咐小娜就是了！","国航"],
+			["发朋友圈什么的，<br>吩咐小娜就够啦！","微信"],//33
+			["出门带上小娜，<br>再也不会迷路了！","高德地图"],//34
+			["想看什么视频，<br>告诉小娜就可以！","爱奇艺"],//35
+			["怕忘记什么，<br>叮嘱小娜就是了！","位置提醒"],//36
+			["订酒店什么的，<br>吩咐小娜就是了！","去哪儿"],//37
+			["买机票什么的，<br>吩咐小娜就是了！","国航"],//38
 
 		],
 	};
@@ -225,9 +225,12 @@
 					window.location.href = "http://taoquan.taobao.com/coupon/unify_apply.htm?sellerId=1711191736&activityId=161502381";
 				});
 			} else {
-				if(XIAONA.num <= 30) {
+
+                //加载底部bing图片
+				if(XIAONA.num <= 32 && XIAONA.num != 31) {
 					$("#show_info_img").attr("src","img/"+XIAONA.num+".jpg");
 				}
+
 				$("#rewarded").css("display","none");
 				$("#noreward").css("display","block");
 //				$("#show_info_img").attr("src","");
@@ -320,12 +323,14 @@
 				$("#func_l").attr("src","img/func_left_2.gif");
 				$("#xiaona_answer").html(XIAONA.texts[XIAONA.num-1][2]);
 				$("#xiaona_answer").css("display","block");
-				if(XIAONA.num <= 30) {
-					$("#show_info_img").css("display","block");
-				}
+
+                //bill
 				if(XIAONA.num == 31) {
 					$("#bill_img").css("display","block");
-				}
+				}else{
+                    $("#show_info_img").css("display","block");
+                }
+
 			} else {
 				$("#func_l").attr("src","img/func_left_1.gif");
 				play_sound();
