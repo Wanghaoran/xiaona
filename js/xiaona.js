@@ -230,7 +230,7 @@
 				}
 				$("#rewarded").css("display","none");
 				$("#noreward").css("display","block");
-				$("#show_info_img").attr("src","");
+//				$("#show_info_img").attr("src","");
 
 				$("#noreward_info1").html(XIAONA.texts[XIAONA.num-1][0]);
 			}
