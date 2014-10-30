@@ -128,6 +128,7 @@
 
 <!--未中奖，显示小娜功能界面-->
 <div data-role="page" id="funcpage" style="display:none;">
+    <img id="show_info_img" src="img/3.jpg" realw="720" alignment="center" realh="500" realt="500" style="display:none;">
     <img id="bill_img" src="img/bill_img.jpg" realw="720" alignment="center" realh="872" realt="200" style="display:none;">
     <img id="close_btn" src="img/close.jpg" realw="28" alignment="right" realh="28" realt="40" style="z-index:10;">
     <img id="func_c" src="img/func_center_1.gif" realw="225" alignment="center" realh="225" realt="200">
