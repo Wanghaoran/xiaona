@@ -136,7 +136,7 @@
     <img id="func_l" src="img/func_left_1.gif" realw="110" realh="100" realt="10" reall="10">
     <label id="user_word" style="display:block;color:rgb(0,0,0);" reall="20" realt="1035" fontsize="40" realw="580"></label>
 
-    <img id="input_img" src="img/input_img.jpg" realw="720" alignment="bottom_center" realh="119" realt="1000">
+    <img id="input_img" src="img/input_img.jpg" realw="720" alignment="center" realh="119" realt="1000">
 
     <label id="xiaona_answer" style="display:block;color:rgb(20,99,250);word-wrap:break-word;" reall="60" realt="150" fontsize="50" realw="600"></label>
 </div>
