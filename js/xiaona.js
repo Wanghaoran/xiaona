@@ -101,9 +101,9 @@
             } else if(alignment == "bottom_center"){
 
 
-                /* ***************      windows phone 单独处理 向上提40  *************** */
+                /* ***************      windows phone 单独处理 向上提 30  *************** */
                 if(iswin == 1){
-                    images[i].style.top = realH - imgH*bili - 40 +"px";
+                    images[i].style.top = realH - imgH*bili - 30 +"px";
                 }else{
                     images[i].style.top = realH - imgH*bili +"px";
                 }
