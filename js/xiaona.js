@@ -116,8 +116,7 @@
 	        labels[i].style.width = imgW*bili+"px";
 	    }
 	    //特殊处理
-//	    $("#user_word").css("left", (parseInt($("#input_img").css("left"))+10)+"px");
-        $("#user_word").css("top", (parseInt($("#input_img").css("top"))+40*bili)+"px");
+	    $("#user_word").css("left", (parseInt($("#input_img").css("left"))+10)+"px");
 	    $("#xiaona_answer").css("left", (parseInt($("#input_img").css("left"))+10)+"px");
 	    $("#xiaona_answer").css("width", (parseInt($("#input_img").css("width"))-10)+"px");
 	    $("#show_info_img").css("top", (parseInt($("#input_img").css("top"))-500*bili)+"px");
