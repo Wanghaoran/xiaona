@@ -35,6 +35,23 @@ class Welcome extends CI_Controller {
         $this->load->view('welcome', $data);
 	}
 
+    /*
+    public function index(){
+        $data = array();
+        $data['quan'] = 1;
+        $data['openid'] = '2';
+        $this->load->view('welcome', $data);
+    }
+    */
+
+    public function tests(){
+        if(strpos($_SERVER["HTTP_USER_AGENT"], 'Windows Phone')){
+            echo 'Windows Phone';
+        }else{
+            echo 'No';
+        }
+    }
+
     //记录已获得优惠券的用户
     public function reloads(){
         $openid = $_POST['od'];
