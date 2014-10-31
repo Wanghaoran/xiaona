@@ -99,7 +99,14 @@
                 images[i].style.top = imgT*bili+"px";
                 images[i].style.left = (realW-200)/2+"px";
             } else if(alignment == "bottom_center"){
-                images[i].style.top = realH - imgH*bili+"px";
+
+
+                /* ***************      windows phone 单独处理 向上提40  *************** */
+                if(iswin == 1){
+                    images[i].style.top = realH - imgH*bili - 40 +"px";
+                }else{
+                    images[i].style.top = realH - imgH*bili +"px";
+                }
                 images[i].style.left = (realW-imgW*bili)/2+"px";
             }
         }
@@ -118,9 +125,11 @@
 	    }
 	    //特殊处理
 	    $("#user_word").css("left", (parseInt($("#input_img").css("left"))+10)+"px");
+        /* ***************      windows phone 单独处理 *************** */
 		$("#user_word").css("top", (parseInt($("#input_img").css("top"))+40*bili)+"px");
 	    $("#xiaona_answer").css("left", (parseInt($("#input_img").css("left"))+10)+"px");
 	    $("#xiaona_answer").css("width", (parseInt($("#input_img").css("width"))-10)+"px");
+        /* ***************      windows phone 单独处理 *************** */
 	    $("#show_info_img").css("top", (parseInt($("#input_img").css("top"))-500*bili)+"px");
 	    $("#bill_img").css("top", (parseInt($("#input_img").css("top"))-872*bili)+"px");
 

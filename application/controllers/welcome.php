@@ -3,6 +3,7 @@
 class Welcome extends CI_Controller {
 
 
+
 	public function index()
 	{
         $this->load->helper('url');
@@ -29,11 +30,22 @@ class Welcome extends CI_Controller {
         }else{
             $data['quan'] = 2;
         }
+
+
+        //区分windows phone 平台
+        if(strpos($_SERVER["HTTP_USER_AGENT"], 'Windows Phone')){
+            $data['isWin'] = '1';
+        }else{
+            $data['isWin'] = '2';
+        }
+
+        //open id
         $data['openid'] = $result_arr['openid'];
 
 
         $this->load->view('welcome', $data);
 	}
+
 
     /*
     public function index(){

@@ -24,6 +24,16 @@
           //2为不可以中出优惠券
           var quan = 2;
         <?php endif; ?>
+
+        <?php if($isWin == 1): ?>
+          //1为windows手机
+          var iswin = 1;
+        <?php else: ?>
+          //2为非windows手机
+          var iswin = 2;
+        <?php endif; ?>
+
+
         var wechat_openid = '<?=$openid?>';
     </script>
     <script src="js/jquery.js"></script>
