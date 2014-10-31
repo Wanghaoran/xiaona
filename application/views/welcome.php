@@ -94,7 +94,7 @@
 </div>
 <div id="jquery_jplayer_1"></div>
 <!--开始界面-->
-<div data-role="page" id="mainpage" style="display:block;">
+<div data-role="page" id="mainpage" style="display:block;" ontouchmove= "event.preventDefault()" >
     <img id="title_head" src="img/title_head.jpg" realw="550" alignment="center" realh="232" realt="70">
     <img id="mainpage_xn" src="img/mainpage_xn.jpg" realw="472" alignment="center" realh="233" realt="360">
     <img id="startBtn" src="img/start_btn_1.png" realw="188" alignment="center" realh="188" realt="625" style="z-index:2">
@@ -105,10 +105,10 @@
 </div>
 
 <!--摇奖结果界面-->
-<div data-role="page" id="rewardpage" style="display:none;">
+<div data-role="page" id="rewardpage" style="display:none;" ontouchmove= "event.preventDefault()">
     <img id="reward_bgd" src="img/bg.jpg" realw="720" alignment="center" realh="1133">
     <!--中奖显示 start-->
-    <div id="rewarded" style="display:none;">
+    <div id="rewarded" style="display:none;" ontouchmove= "event.preventDefault()">
         <label id="reward_desc" style="display:block;" reall="50" realt="50" fontsize="60" realw="200">亲爱的</label>
         <label id="reward_name" style="display:none;" reall="100" realt="110"  fontsize="60" realw="600"></label>
         <img id="reward_phone" style="display:block;" src="img/reward_phone.png" realw="344" alignment="center" realh="461" realT="220">
@@ -118,7 +118,7 @@
         <img id="reward_phone_btn" src="img/reward_btn_c.png" realw="519" alignment="center" realh="164" realT="900">
     </div>
     <!--中奖显示 end-->
-    <div id="noreward" style="display:block;">
+    <div id="noreward" style="display:block;" ontouchmove= "event.preventDefault()">
         <img id="second_xn" style="display:block;" src="img/second_xn.png" realw="432" alignment="center" realh="391" realt="160">
         <label id="noreward_info1" style="display:block;" realt="650" fontsize="50" realw="700"></label>
         <img id="noreward_phone" src="img/second_btn.png" realw="519" alignment="center" realh="164" realt="820">
@@ -127,7 +127,7 @@
 </div>
 
 <!--未中奖，显示小娜功能界面-->
-<div data-role="page" id="funcpage" style="display:none;">
+<div data-role="page" id="funcpage" style="display:none;" ontouchmove= "event.preventDefault()">
     <img id="show_info_img" src="img/3.jpg" realw="720" alignment="center" realh="500" realt="500" style="display:none;">
     <img id="bill_img" src="img/bill_img.jpg" realw="720" alignment="center" realh="872" realt="200" style="display:none;">
     <img id="close_btn" src="img/close.jpg" realw="28" alignment="right" realh="28" realt="40" style="z-index:10;">
@@ -136,12 +136,12 @@
     <img id="func_l" src="img/func_left_1.gif" realw="110" realh="100" realt="10" reall="10">
     <label id="user_word" style="display:block;color:rgb(0,0,0);" reall="20" realt="1035" fontsize="40" realw="580"></label>
 
-    <img id="input_img" src="img/input_img.jpg" realw="720" alignment="center_bottom" realh="119" realt="1000">
+    <img id="input_img" src="img/input_img.jpg" realw="720" alignment="bottom_center" realh="119" realt="1000">
 
     <label id="xiaona_answer" style="display:block;color:rgb(20,99,250);word-wrap:break-word;" reall="60" realt="150" fontsize="50" realw="600"></label>
 </div>
 <!--显示功能结束返回界面-->
-<div data-role="page" id="thirdpage" style="display:none;">
+<div data-role="page" id="thirdpage" style="display:none;" ontouchmove= "event.preventDefault()">
     <img id="reward_bgd" src="img/bg.jpg" realw="720" alignment="center" realh="1133">
     <img id="title_head" src="img/third_title.png" realw="550" alignment="center" realh="232" realt="70">
     <img id="third_xn" src="img/third_xn.png" realw="432" alignment="center" realh="391" realt="360">
