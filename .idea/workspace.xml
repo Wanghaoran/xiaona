@@ -47,7 +47,7 @@
       <file leaf-file-name="xiaona.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/xiaona.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="197" column="24" selection-start="8783" selection-end="8783" vertical-scroll-proportion="0.48963928" vertical-offset="2711" max-vertical-offset="7344">
+            <state line="183" column="105" selection-start="8002" selection-end="8002" vertical-scroll-proportion="0.55597293" vertical-offset="2371" max-vertical-offset="7344">
               <folding />
             </state>
           </provider>
@@ -83,7 +83,7 @@
       <file leaf-file-name="xiaona.js.bak" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/xiaona.js.bak">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="156" column="15" selection-start="6511" selection-end="6571" vertical-scroll-proportion="0.0" vertical-offset="2142" max-vertical-offset="7650">
+            <state line="156" column="15" selection-start="6511" selection-end="6571" vertical-scroll-proportion="0.0" vertical-offset="2652" max-vertical-offset="7650">
               <folding />
             </state>
           </provider>
@@ -308,7 +308,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nokia_thunder" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../skyteam-game" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -344,7 +344,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08459094" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.085385226" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -703,7 +703,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/xiaona.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="197" column="24" selection-start="8783" selection-end="8783" vertical-scroll-proportion="0.48963928" vertical-offset="2711" max-vertical-offset="7344">
+        <state line="183" column="105" selection-start="8002" selection-end="8002" vertical-scroll-proportion="0.55597293" vertical-offset="2371" max-vertical-offset="7344">
           <folding />
         </state>
       </provider>
