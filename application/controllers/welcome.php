@@ -21,9 +21,6 @@ class Welcome extends CI_Controller {
             redirect('http://182.92.64.207/xiaona/');
         }
 
-        var_dump($result_arr);
-
-        /*
         $this -> load -> model('quan_model');
 
         //查询用户是否已中过优惠券，已中出则不在中
@@ -47,8 +44,6 @@ class Welcome extends CI_Controller {
 
 
         $this->load->view('welcome', $data);
-
-        */
 	}
 
 
