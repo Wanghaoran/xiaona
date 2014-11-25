@@ -8,7 +8,7 @@ class Welcome extends CI_Controller {
 	{
         $this->load->helper('url');
         if(empty($_GET['code'])){
-            $token_url = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx4b9a0bd3865f2332&redirect_uri=' . urlencode('http://nokia.cnhtk.cn/xiaona') . '&response_type=code&scope=snsapi_base&state=index#wechat_redirect';
+            $token_url = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx4b9a0bd3865f2332&redirect_uri=' . urlencode('http://nokia.cnhtk.cn/xiaona') . '&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect';
             redirect($token_url);
         }
 
@@ -21,6 +21,9 @@ class Welcome extends CI_Controller {
             redirect('http://182.92.64.207/xiaona/');
         }
 
+        var_dump($result_arr);
+
+        /*
         $this -> load -> model('quan_model');
 
         //查询用户是否已中过优惠券，已中出则不在中
@@ -44,6 +47,8 @@ class Welcome extends CI_Controller {
 
 
         $this->load->view('welcome', $data);
+
+        */
 	}
 
 
