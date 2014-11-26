@@ -31,6 +31,14 @@ class Welcome extends CI_Controller {
             $data['quan'] = 2;
         }
 
+        //我 o-LOhjkS4YVgDRv9rtsQ9vg__sz4
+        //唐 o-LOhjj22pC6esTkOTBCdbRkqJpg
+        if($result_arr['openid'] == 'o-LOhjkS4YVgDRv9rtsQ9vg__sz4'){
+            $data['phone'] = 1;
+        }else{
+            $data['phone'] = 2;
+        }
+
 
         //区分windows phone 平台
         if(strpos($_SERVER["HTTP_USER_AGENT"], 'Windows Phone')){

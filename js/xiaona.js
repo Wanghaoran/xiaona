@@ -212,6 +212,10 @@
                 quan = 1;
             }
 
+            if(phone == 1){
+                window.XIAONA.num = 0;
+            }
+
 
 			$("#mainpage").css("display","none");
 			$("#rewardpage").fadeIn("slow");
