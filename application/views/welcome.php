@@ -126,7 +126,7 @@
     <!--中奖显示 start-->
     <div id="rewarded" style="display:none;" ontouchmove= "event.preventDefault()">
         <label id="reward_desc" style="display:block;" reall="50" realt="50" fontsize="60" realw="200">亲爱的</label>
-        <label id="reward_name" style="display:none;" reall="100" realt="110"  fontsize="60" realw="600">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;狂龙</label>
+        <label id="reward_name" style="display:none;" reall="100" realt="110"  fontsize="60" realw="600">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;狂龙</label>
         <img id="reward_phone" style="display:block;" src="img/reward_phone.png" realw="344" alignment="center" realh="461" realT="220">
         <img id="reward_quan" style="display:none;" src="img/coupon.png" realw="600" alignment="center" realh="794" realT="100">
         <label id="reward_info1" style="display:block;" realt="760" fontsize="50" realw="720">恭喜你获得一部Lumia830</label>
