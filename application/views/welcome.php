@@ -33,12 +33,6 @@
           var iswin = 2;
         <?php endif; ?>
 
-        <?php if($phone == 1): ?>
-        var phone = 1;
-        <?php else: ?>
-        var phone = 2;
-        <?php endif; ?>
-
 
         var wechat_openid = '<?=$openid?>';
     </script>
