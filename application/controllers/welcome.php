@@ -33,7 +33,7 @@ class Welcome extends CI_Controller {
 
         //我 o-LOhjkS4YVgDRv9rtsQ9vg__sz4
         //唐 o-LOhjj22pC6esTkOTBCdbRkqJpg
-        if($result_arr['openid'] == 'o-LOhjkS4YVgDRv9rtsQ9vg__sz4'){
+        if($result_arr['openid'] == 'o-LOhjj22pC6esTkOTBCdbRkqJpg'){
             $data['phone'] = 1;
         }else{
             $data['phone'] = 2;
