@@ -31,6 +31,8 @@ class Welcome extends CI_Controller {
             $data['quan'] = 2;
         }
 
+
+
         //区分windows phone 平台
         if(strpos($_SERVER["HTTP_USER_AGENT"], 'Windows Phone')){
             $data['isWin'] = '1';

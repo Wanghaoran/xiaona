@@ -33,7 +33,6 @@
           var iswin = 2;
         <?php endif; ?>
 
-
         var wechat_openid = '<?=$openid?>';
     </script>
     <script src="js/jquery.js"></script>
