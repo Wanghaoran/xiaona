@@ -72,6 +72,16 @@ class Welcome extends CI_Controller {
         $this -> quan_model -> insertuser($openid);
     }
 
+    public function webdebug(){
+        //open id
+        $data['openid'] = 'webdebug';
+        $data['quan'] = 1;
+        $data['isWin'] = '2';
+
+
+        $this->load->view('welcome', $data);
+    }
+
 }
 
 /* End of file welcome.php */
