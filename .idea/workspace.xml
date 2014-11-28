@@ -23,10 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="welcome.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="welcome.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="30" selection-start="2190" selection-end="2190" vertical-scroll-proportion="0.62222224" vertical-offset="816" max-vertical-offset="1581">
+            <state line="74" column="28" selection-start="2130" selection-end="2138" vertical-scroll-proportion="-17.0" vertical-offset="816" max-vertical-offset="1581">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="2" selection-start="1392" selection-end="1392" vertical-scroll-proportion="0.7159383" vertical-offset="89" max-vertical-offset="884">
               <folding />
             </state>
           </provider>
@@ -139,6 +148,7 @@
         <option value="$PROJECT_DIR$/js/xiaona.js" />
         <option value="$PROJECT_DIR$/application/views/welcome.php" />
         <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
+        <option value="$PROJECT_DIR$/application/config/routes.php" />
       </list>
     </option>
   </component>
@@ -804,7 +814,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="30" selection-start="2190" selection-end="2190" vertical-scroll-proportion="0.62222224" vertical-offset="816" max-vertical-offset="1581">
+        <state line="74" column="28" selection-start="2130" selection-end="2138" vertical-scroll-proportion="-17.0" vertical-offset="816" max-vertical-offset="1581">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="2" selection-start="1392" selection-end="1392" vertical-scroll-proportion="0.7159383" vertical-offset="89" max-vertical-offset="884">
           <folding />
         </state>
       </provider>
