@@ -103,7 +103,7 @@
 </div>
 <div id="jquery_jplayer_1"></div>
 <!--开始界面-->
-<div data-role="page" id="mainpage" style="display:block;" ontouchmove= "event.preventDefault()" >
+<div data-role="page" id="mainpage" style="display:block;">
     <img id="title_head" src="img/title_head.jpg" realw="550" alignment="center" realh="232" realt="70">
     <img id="mainpage_xn" src="img/mainpage_xn.jpg" realw="472" alignment="center" realh="233" realt="360">
     <img id="startBtn" src="img/start_btn_1.png" realw="188" alignment="center" realh="188" realt="625" style="z-index:2">
