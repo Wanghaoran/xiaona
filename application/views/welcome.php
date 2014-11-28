@@ -158,6 +158,9 @@
     <img id="againBtn" src="img/third_again_btn.png" realw="519" alignment="center" realh="164" realt="910">
     <img id="share_help" src="img/share_info.png" realw="720" alignment="center" realh="1133" style="display:none;">
 </div>
+<div id="rewardList">
+    <div id="rewardReturn"></div>
+</div>
 
 <div style="display: none;">
     <script src="http://v1.cnzz.com/stat.php?id=1253430086&web_id=1253430086" language="JavaScript"></script>

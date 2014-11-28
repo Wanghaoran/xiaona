@@ -1,5 +1,6 @@
 (function(){
-	//小娜文字描述
+    $("body").height($(window).height());
+    //小娜文字描述
     window.XIAONA = {
         texts:[
             ["小娜亮绝技，<br>给你唱首歌！"," 来首老歌","听听这首怎么样。流水它带走光阴的故事改变了一个人。"],//1
@@ -266,12 +267,26 @@
 	$("#help_info").click(function(){
 		$("#help_info").fadeOut("slow");
 	});
-	//排名按钮事件
-	$("#listBtn").click(function(){
-		var isRunning = $("#startBtn").attr("isRunning");
-		if(isRunning == "true") return;
-		//TODO 打开排名界面，排名界面暂时没有
-	});
+
+    //排名按钮事件
+    $("#listBtn").click(function(){
+        var isRunning = $("#startBtn").attr("isRunning");
+        if(isRunning == "true") return;
+        //TODO 打开排名界面，排名界面暂时没有
+        $("body").css("background-color","#fff");
+        $("#mainpage").hide();
+        $("#rewardList").show();
+    });
+    //
+    $("#rewardReturn").click(function(){
+        var isRunning = $("#startBtn").attr("isRunning");
+        if(isRunning == "true") return;
+        //TODO 打开排名界面，排名界面暂时没有
+        $("body").css("background-color","#ee7700");
+        $("#rewardList").hide();
+        $("#mainpage").show();
+    });
+
 
 	//广告按钮事件
 	$("#adBtn").click(function(){
