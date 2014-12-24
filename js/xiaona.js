@@ -133,7 +133,7 @@
                 if(iswin == 1){
                     images[i].style.top = realH - imgH*bili - 20 +"px";
                 }else if(iswin == 3){
-                    images[i].style.top = realH - imgH*bili - 40 +"px";
+                    images[i].style.top = realH - imgH*bili - 50 +"px";
                 }else{
                     images[i].style.top = realH - imgH*bili +"px";
                 }
