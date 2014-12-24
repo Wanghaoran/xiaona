@@ -28,8 +28,10 @@
         <?php if($isWin == 1): ?>
           //1为windows手机
           var iswin = 1;
+        <?php elseif($isWin == 3): ?>
+          var iswin = 3;
         <?php else: ?>
-          //2为非windows手机
+        //2为非windows手机
           var iswin = 2;
         <?php endif; ?>
 

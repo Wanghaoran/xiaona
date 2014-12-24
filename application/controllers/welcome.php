@@ -35,7 +35,11 @@ class Welcome extends CI_Controller {
 
         //区分windows phone 平台
         if(strpos($_SERVER["HTTP_USER_AGENT"], 'Windows Phone')){
-            $data['isWin'] = '1';
+            if(strpos($_SERVER["HTTP_USER_AGENT"], 'RM-1090')){
+                $data['isWin'] = '3';
+            }else{
+                $data['isWin'] = '1';
+            }
         }else{
             $data['isWin'] = '2';
         }
