@@ -59,9 +59,16 @@ class Welcome extends CI_Controller {
 
     public function tests(){
         if(strpos($_SERVER["HTTP_USER_AGENT"], 'Windows Phone')){
+
+            if(strpos($_SERVER["HTTP_USER_AGENT"], 'RM-1090')){
+                echo 'Lumia 535';
+                return;
+            }
             echo 'Windows Phone';
+            return;
         }else{
             echo 'No';
+            return;
         }
     }
 
