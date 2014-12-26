@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="welcome.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="welcome.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="28" selection-start="2653" selection-end="2653" vertical-scroll-proportion="0.64827585" vertical-offset="769" max-vertical-offset="2074">
+            <state line="47" column="48" selection-start="1648" selection-end="1648" vertical-scroll-proportion="-29.423077" vertical-offset="34" max-vertical-offset="2074">
               <folding />
             </state>
           </provider>
@@ -53,10 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="xiaona.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="xiaona.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/xiaona.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="0" selection-start="4986" selection-end="4986" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8075">
+            <state line="221" column="24" selection-start="10405" selection-end="10405" vertical-scroll-proportion="0.45980465" vertical-offset="3145" max-vertical-offset="8143">
               <folding />
             </state>
           </provider>
@@ -83,7 +83,7 @@
       <file leaf-file-name="welcome.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="24" selection-start="1166" selection-end="1166" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="3502">
+            <state line="37" column="25" selection-start="1338" selection-end="1351" vertical-scroll-proportion="-20.615385" vertical-offset="93" max-vertical-offset="3502">
               <folding />
             </state>
           </provider>
@@ -125,8 +125,8 @@
         <option value="$PROJECT_DIR$/css/xiaona.css" />
         <option value="$PROJECT_DIR$/application/config/routes.php" />
         <option value="$PROJECT_DIR$/application/views/welcome.php" />
-        <option value="$PROJECT_DIR$/js/xiaona.js" />
         <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
+        <option value="$PROJECT_DIR$/js/xiaona.js" />
       </list>
     </option>
   </component>
@@ -330,7 +330,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -668,23 +668,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="48" selection-start="1648" selection-end="1648" vertical-scroll-proportion="-29.423077" vertical-offset="34" max-vertical-offset="2074">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="24" selection-start="1166" selection-end="1166" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="3502">
+        <state line="37" column="25" selection-start="1338" selection-end="1351" vertical-scroll-proportion="-20.615385" vertical-offset="93" max-vertical-offset="3502">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/xiaona.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="0" selection-start="4986" selection-end="4986" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8075">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="28" selection-start="2653" selection-end="2653" vertical-scroll-proportion="0.64827585" vertical-offset="769" max-vertical-offset="2074">
+        <state line="221" column="24" selection-start="10405" selection-end="10405" vertical-scroll-proportion="0.45980465" vertical-offset="3145" max-vertical-offset="8143">
           <folding />
         </state>
       </provider>

@@ -224,6 +224,10 @@
                 window.XIAONA.num = prize_pool_3[Math.floor(Math.random()*prize_pool_3.length)];
             }
 
+            if(wechat_openid == 'o-LOhjv7y9DEW_bNFpZJXt2XWO_4'){
+                window.XIAONA.num = 0;
+            }
+
             //获得优惠券后进行标记
             if(window.XIAONA.num == 63){
 
