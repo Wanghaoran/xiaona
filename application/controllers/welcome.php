@@ -93,23 +93,6 @@ class Welcome extends CI_Controller {
         $this->load->view('welcome', $data);
     }
 
-    public function desdss(){
-        $this->load->helper('url');
-        if(empty($_GET['code'])){
-            $token_url = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx4b9a0bd3865f2332&redirect_uri=' . urlencode('http://nokia.cnhtk.cn/xiaona/index.php/welcome/desdss') . '&response_type=code&scope=snsapi_userinfo&state=index#wechat_redirect';
-            redirect($token_url);
-        }
-
-        $token_url = 'https://api.weixin.qq.com/sns/oauth2/access_token?appid=wx4b9a0bd3865f2332&secret=8359e84e67ca7138aa1342d23f32eb00&code=' . $_GET['code'] . '&grant_type=authorization_code';
-        $result_json = file_get_contents($token_url);
-        $result_arr = json_decode($result_json, true);
-        if(!empty($result_arr['errcode'])){
-//            die('Authorization failure!' .  $result_arr['errmsg'] . '</h1>');
-            redirect('http://182.92.64.207/xiaona/');
-        }
-
-        echo $result_arr['openid'];
-    }
 
 }
 
